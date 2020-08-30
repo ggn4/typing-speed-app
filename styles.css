@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Rowdies", cursive;
+  }
+  body {
+    background: url("pencil-bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .mainDiv {
+    margin-top: 100px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    font-size: 2.1rem;
+  }
+  h2 {
+    text-align: center;
+    text-shadow: 1px 2px 3px white;
+  }
+
+  .mainbtn {
+    position: relative;
+    background-color: #444;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .maincontainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .mainbtn:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+  }
+  .textinput {
+    width: 50%;
+    min-height: 75px;
+    justify-content: center;
+    outline: none;
+    resize: none;
+    background-color: #444;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    border: 2px white;
+    color: white;
+    font-size: 1.3rem;
+    padding:5px;
+}
+  .mainbtn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
+  .warningDiv {
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+  }
+  

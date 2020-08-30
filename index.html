@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+
+      <div class="maincontainer">
+        <h1 class="text-center">Welcome to Typing Speed Test</h1>
+        <h2 id="msg"></h2>
+        <br />
+        <div class="text-center">
+        <textarea
+          id="mywords"
+          class="textinput"
+          rows="5"
+          placeholder="Remember, be nice!"
+        ></textarea>
+        </div>
+        <br />
+        <div>
+          <button id="btn" class="mainbtn">Start</button>
+        </div>
+        <div class="warningDiv">
+          Note : Don't give extra space between words | Type capitilize words in
+          uppercase.
+        </div>
+      </div>
+
+    <script src="logic.js"></script>
+  </body>
+</html>
